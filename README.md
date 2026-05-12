@@ -107,7 +107,7 @@ npm install
 
 **Backend .env file:**
 ```env
-MONGOURI=mongodb+srv://username:password@cluster.mongodb.net/jobtracker
+MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/jobtracker
 PORT=8000
 NODE_ENV=development
 JWT_SECRET=your_super_secret_jwt_key_here
