@@ -8,7 +8,7 @@ const getBaseURL = () => {
   if (apiUrl && apiUrl.trim()) {
     return apiUrl;
   }
-  return "/api";
+  return "/";
 };
 
 const API_URL = getBaseURL();
